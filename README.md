@@ -6,7 +6,7 @@ This was a three-person group project for ALY6040 (Data Mining) in the M.S. Data
 
 ## Data
 
-- `heart_2020.csv`: the Kaggle "Personal Key Indicators of Heart Disease" dataset, built from the CDC's 2020 BRFSS survey [add dataset link]
+- `heart_2020.csv`: the Kaggle "Personal Key Indicators of Heart Disease" dataset, built from the CDC's 2020 BRFSS survey
 - 319,795 respondents and 18 columns: the target (`HeartDisease`) plus health, lifestyle, and demographic features such as BMI, smoking, sleep time, age group, and general health
 - About 9% of respondents report heart disease, so the classes are heavily imbalanced
 
@@ -17,7 +17,7 @@ This was a three-person group project for ALY6040 (Data Mining) in the M.S. Data
 - Tested BMI and sleep time for normality (Shapiro-Wilk, Q-Q plots) and applied a Box-Cox transformation.
 - Encoded categorical variables as numbers: ordered mappings for age group and general health, and 0/1 for yes/no fields.
 
-**Analysis and models**
+**Analysis and models****
 - Correlation matrix, and BMI and sleep time compared by heart disease status
 - Heart disease prevalence by race
 - Logistic regression and gradient boosting classifiers to predict heart disease
